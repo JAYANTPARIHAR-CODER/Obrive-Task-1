@@ -1,31 +1,31 @@
 import Image from "next/image";
 const projects = [
   {
-    title: "Project One",
+    title: "Sani Sweets",
     description:
       "A modern web application built using React and JavaScript.",
     tech: "React, JavaScript, CSS",
-    demo: "https://your-project-one.vercel.app",
-    github: "https://github.com/yourusername/project-one",
+    demo: "https://saini-sweets-u17h.vercel.app/",
+    github: "https://github.com/JAYANTPARIHAR-CODER/saini-sweets",
     image: "/images/SaniSweets.png", 
   },
   {
-    title: "Project Two",
+    title: "F1 PARTS",
     description:
       "A full-stack application focused on solving a practical problem.",
     tech: "Next.js, Node.js, SQL",
-    demo: "https://your-project-two.vercel.app",
-    github: "https://github.com/yourusername/project-two",
+    demo: "https://original-f1-new.vercel.app/",
+    github: "https://github.com/JAYANTPARIHAR-CODER/original-f1-new",
     image: "/images/F1.png", 
     // Add the image path for Project Two
   },
   {
-    title: "Project Three",
+    title: "AEGIS TRADE APP",
     description:
       "A responsive frontend project with reusable components.",
     tech: "React, CSS",
-    demo: "https://your-project-three.vercel.app",
-    github: "https://github.com/yourusername/project-three",
+    demo: "https://trade-control-iota.vercel.app/",
+    github: "https://github.com/JAYANTPARIHAR-CODER/trade-control",
     image: "/images/TradeApp.png", 
   },
 ];
