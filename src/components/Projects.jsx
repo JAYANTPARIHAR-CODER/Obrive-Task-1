@@ -1,3 +1,4 @@
+import Image from "next/image";
 const projects = [
   {
     title: "Project One",
@@ -6,6 +7,7 @@ const projects = [
     tech: "React, JavaScript, CSS",
     demo: "https://your-project-one.vercel.app",
     github: "https://github.com/yourusername/project-one",
+    image: "/images/SaniSweets.png", 
   },
   {
     title: "Project Two",
@@ -14,6 +16,8 @@ const projects = [
     tech: "Next.js, Node.js, SQL",
     demo: "https://your-project-two.vercel.app",
     github: "https://github.com/yourusername/project-two",
+    image: "/images/F1.png", 
+    // Add the image path for Project Two
   },
   {
     title: "Project Three",
@@ -22,6 +26,7 @@ const projects = [
     tech: "React, CSS",
     demo: "https://your-project-three.vercel.app",
     github: "https://github.com/yourusername/project-three",
+    image: "/images/TradeApp.png", 
   },
 ];
 
@@ -48,7 +53,11 @@ export default function Projects() {
             >
 
               <div className="project-image">
-                Project Image
+                <Image
+                  src={project.image}
+                  width={300}
+                  height={200}
+                />
               </div>
 
               <div className="project-content">
