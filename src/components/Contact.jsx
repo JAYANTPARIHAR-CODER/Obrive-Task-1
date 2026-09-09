@@ -1,46 +1,82 @@
 export default function Contact() {
   return (
-    <section id="contact" className="section section-dark">
+    <section id="contact" className="contact-section">
 
       <div className="container contact-container">
 
-        <p className="section-label">
+        <p className="contact-label">
           CONTACT
         </p>
 
-        <h2 className="section-title">
-          Let's Work Together
-        </h2>
+        <div className="contact-divider"></div>
 
-        <p className="contact-description">
-          If you would like to discuss a project,
-          internship or development opportunity,
-          feel free to contact me.
+        <p className="contact-subtitle">
+          ✧ &nbsp; SEND AN INQUIRY
         </p>
 
-        <div className="contact-links">
+        <h2 className="contact-title">
+          LET'S BUILD SOMETHING.
+        </h2>
 
-          <a href="mailto:your-email@example.com">
-            Email Me
-          </a>
+        <div className="contact-title-line"></div>
 
-          <a
-            href="https://github.com/"
-            target="_blank"
-            rel="noreferrer"
+        <p className="contact-description">
+          For inquiries, stamp your details below.
+        </p>
+
+        <form className="contact-form">
+
+          <div className="contact-form-row">
+
+            <div className="form-group">
+              <label htmlFor="name">
+                FULL NAME
+              </label>
+
+              <input
+                id="name"
+                type="text"
+                placeholder="Jayant Parihar"
+              />
+            </div>
+
+            <div className="form-group">
+              <label htmlFor="email">
+                EMAIL ADDRESS
+              </label>
+
+              <input
+                id="email"
+                type="email"
+                placeholder="you@example.com"
+              />
+            </div>
+
+          </div>
+
+          <div className="form-group message-group">
+
+            <label htmlFor="message">
+              MESSAGE
+            </label>
+
+            <textarea
+              id="message"
+              rows="7"
+              placeholder="Tell me about your project, role or idea..."
+            />
+
+          </div>
+
+          <button
+            type="submit"
+            className="contact-send"
           >
-            GitHub
-          </a>
+            <span className="send-icon">➤</span>
+            <span>STAMP SEND</span>
+          </button>
 
-          <a
-            href="https://www.linkedin.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            LinkedIn
-          </a>
-
-        </div>
+        </form>
 
       </div>
 
