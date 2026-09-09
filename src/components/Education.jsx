@@ -8,22 +8,32 @@ export default function Education() {
         </p>
 
         <h2 className="section-title">
-          Education & Focus
+          Education & Core Focus
         </h2>
 
         <div className="education-card">
 
           <h3>
-            Bachelor of Technology - Computer Science Engineering
+            B.Tech in Computer Science Engineering
           </h3>
 
           <p>
-            Computer Science Engineering
+            <strong>Degree:</strong> B.Tech in Computer Science Engineering
+            (2024 – 2028) | <strong>CGPA:</strong> 8.78
           </p>
 
           <p>
-            Focus areas: Web Development, Data Structures,
-            Databases and Software Development.
+            <strong>University:</strong> Chitkara University
+          </p>
+
+          <p>
+            <strong>Relevant Coursework:</strong> OOPs, DBMS, Operating
+            Systems, Data Structures, Computer Networks, AI/ML
+          </p>
+
+          <p>
+            <strong>Core Focus:</strong> Data Structures & Algorithms,
+            AI & Machine Learning, Full Stack Development, System Design
           </p>
 
         </div>

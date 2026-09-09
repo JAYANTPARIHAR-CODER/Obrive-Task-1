@@ -1,19 +1,51 @@
-const skills = [
-  "Java",
-  "JavaScript",
-  "React",
-  "Next.js",
-  "HTML",
-  "CSS",
-  "SQL",
-  "Git",
-  "GitHub",
-  "Node.js",
+const skillCategories = [
+  {
+    title: "LANGUAGES",
+    skills: [
+      "Java",
+      "C++",
+      "SQL",
+      "JavaScript",
+      "HTML",
+      "CSS",
+    ],
+  },
+  {
+    title: "TOOLS & FRAMEWORKS",
+    skills: [
+      "React",
+      "Next.js",
+      "Node.js",
+      "Git",
+      "GitHub",
+      "Postman",
+      "MySQL",
+      "Linux CLI",
+    ],
+  },
+  {
+    title: "LINUX & SYSTEMS",
+    skills: [
+      "LVM",
+      "Network Security",
+      "User Management",
+    ],
+  },
+  {
+    title: "CORE CS",
+    skills: [
+      "Data Structures",
+      "Algorithms",
+      "OOPs",
+      "Operating Systems",
+      "DBMS",
+    ],
+  },
 ];
 
 export default function Skills() {
   return (
-    <section id="skills" className="section">
+    <section id="skills" className="section section-dark">
       <div className="container">
 
         <p className="section-label">
@@ -24,12 +56,24 @@ export default function Skills() {
           Technical Skills
         </h2>
 
-        <div className="skills-grid">
-          {skills.map((skill) => (
-            <div className="skill-card" key={skill}>
-              {skill}
+        <div className="skills-card">
+
+          {skillCategories.map((category) => (
+            <div className="skill-category" key={category.title}>
+
+              <h3>{category.title}</h3>
+
+              <div className="skill-tags">
+                {category.skills.map((skill) => (
+                  <span key={skill}>
+                    {skill}
+                  </span>
+                ))}
+              </div>
+
             </div>
           ))}
+
         </div>
 
       </div>

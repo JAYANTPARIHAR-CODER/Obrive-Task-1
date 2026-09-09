@@ -3,7 +3,7 @@ const projects = [
   {
     title: "Sani Sweets",
     description:
-      "A modern web application built using React and JavaScript.",
+      "A responsive sweets and bakery website designed to showcase products and provide customers with an easy-to-use browsing experience.",
     tech: "React, JavaScript, CSS",
     demo: "https://saini-sweets-u17h.vercel.app/",
     github: "https://github.com/JAYANTPARIHAR-CODER/saini-sweets",
@@ -12,7 +12,7 @@ const projects = [
   {
     title: "F1 PARTS",
     description:
-      "A full-stack application focused on solving a practical problem.",
+      "An e-commerce platform for Formula 1 racing components, featuring product browsing and a modern, performance-focused interface.",
     tech: "Next.js, Node.js, SQL",
     demo: "https://original-f1-new.vercel.app/",
     github: "https://github.com/JAYANTPARIHAR-CODER/original-f1-new",
@@ -22,8 +22,8 @@ const projects = [
   {
     title: "AEGIS TRADE APP",
     description:
-      "A responsive frontend project with reusable components.",
-    tech: "React, CSS",
+      "A modern trading dashboard that provides users with portfolio insights, market data, performance metrics, and trading analytics.",
+    tech: "Next.js,Zustand,FastAPI,WebSockets,scikit-learn",
     demo: "https://trade-control-iota.vercel.app/",
     github: "https://github.com/JAYANTPARIHAR-CODER/trade-control",
     image: "/images/TradeApp.png", 
